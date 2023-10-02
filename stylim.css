@@ -1,0 +1,66 @@
+*{
+    box-sizing: border-box;
+
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: darkkhaki;
+    margin: 0;
+
+}
+
+.container{
+    width: 366px;
+    height: 300px;
+    background-color: gold;
+    border-radius: 25px;
+}
+    
+.divTemp{
+    padding: 15px;
+}
+
+
+
+.baslik{
+    margin-top: 30px;
+}
+
+.baslik_yazi{
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    /* padding: 0px; */
+    margin-top: 2px;
+    color: maroon;
+}
+
+.yazi{
+    font-size: 15px;
+    color: maroon;
+}
+
+
+.km{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 23px;
+}
+
+.Mil{
+    display: flex;
+    justify-content: space-between;
+}
+
+input{
+    border: none;
+    border-radius: 7px;
+    width: 200px;
+    background-color: antiquewhite;
+}
+
+
